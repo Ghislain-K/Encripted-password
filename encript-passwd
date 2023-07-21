@@ -1,1 +1,8 @@
+HOW TO CREATE AN ENCRYPTED PAASWORD?
+
+3.	Using “openssl”
+        $ openssl passwd -crypt [your_password]
+
+4.	Using “mkpasswd”
+        $ mkpasswd -m sha-512 [your_password]
 
